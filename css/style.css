@@ -1,0 +1,241 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/* -----------------------------------------------------------main----------------------------------------------------------- */
+.main{
+    min-width: 970px;
+    min-height: 550px;
+    background-image: url(/css/img/bg.PNG);
+    background-repeat:no-repeat;
+    background-size:100%;
+    width: 100vw;
+    height: 57vw;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+/* -----------------------------------------------------------header----------------------------------------------------------- */
+.header{
+    margin-left: 14.5%;  
+    padding-top: 4.2%; 
+    margin-right: 14.5%;  
+    width: 71%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.logo{
+    display: inline-block;
+    width: 1.625em;
+    height: 1.625em;
+    padding-right: 3%;
+
+}
+.header-logo{
+    width: 190px;
+    display: inline-block;
+    align-items: flex-start;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.menu-logo{
+    padding-bottom: 3%;
+    display: inline-block;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    width: 320px;
+    font-family: 'Muli', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu-link{
+    display: inline-block;
+    text-decoration: none;  
+    color: #ffffff;
+    position: relative;
+}
+.menu-link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    opacity: 0;
+    height: 1px;
+    margin-top: 10px;
+    background-color: #d4d434;
+    position: absolute;
+    top: 100%;
+    z-index: 100;
+    transition: opacity .1s linear;
+}
+
+
+.menu-link:hover:after {
+    opacity: 1;
+}
+/* ---------------------------------------------------basic--------------------------------------------- */
+.main-basic{
+    min-width: 970px;
+    display: block;
+    margin-left: 14.5%;  
+    margin-top: 15%;
+    margin-right: 14.5%;  
+    width: 71%;
+}
+.main-basic-header{
+    font-family: 'Trirong', serif;
+    font-weight: lighter;
+    font-size: 45px;
+    width: 350px;
+    line-height: 50px;
+}
+.main-basic-text{
+    font-family: 'Muli', sans-serif;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.main-basic-button{
+    margin-top: 50px;
+    font-family: 'Muli', sans-serif;
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color:#000000;
+    border-radius: 150px;
+    background: #f2c200;
+}
+.main-basic-scroll{
+    margin: auto;
+    width: 35vw;
+    height: 15em;
+    text-align: center;
+    vertical-align: bottom;
+
+}.scroll{
+    padding-top: 10vw;
+    width: 30px;
+    height: auto;
+
+}
+/* ----------------------------------------------------------------social-------------------------------------------------------------- */
+.main-social{
+    width: 20%;
+}
+.main-img-social{
+    padding-right: 1%;
+}
+/* -------------------------------------------------------------about---------------------------------------------------------------- */
+.about{
+
+    min-width: 970px;
+    width: 100vw;
+    height: 800px;
+    text-decoration: none;
+    color: #2b2d5c;
+    vertical-align: middle;
+   
+}
+.about-basic{
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    margin-left: 8%;
+    margin-bottom: auto;
+    margin-top: 10%;
+ 
+
+}
+.about-img{
+    display: inline-block;
+    margin-top: 5%;
+    width: 30%;
+    height: auto;
+} 
+.about-basic-header{
+  
+}
+.about-basic-text{
+    margin-top: 3%;
+}
+.about-basic-what{
+    margin-top: 3%;   
+}
+.about-basic-skills{
+    width: 100%; 
+}
+.skills-text{
+    margin-top: 3%; 
+    display: inline-block;
+    width: 32%;
+    text-decoration: none;
+    color: #2b2d5c;
+    
+}
+.img-skills{
+    margin-top: 3%; 
+    margin-right: 15%;
+
+}
+.about-basic-button{
+    margin-top: 50px;
+    font-family: 'Muli', sans-serif;
+    display: inline-block;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color:#ffffff;
+    border-radius: 150px;
+    background: #2b2d5c;
+}
+/* -----------------------------------------------------------------clients--------------------------------------------------------------- */
+.clients{
+    min-width: 970px;
+    width: 100vw;
+    height: 299px;
+    text-decoration: none;
+    color: #2b2d5c;
+    vertical-align: middle;
+    background-image: url(/css/img/BGCL.PNG);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+.clients-menu{
+    padding-top: 3%;
+    margin-left: 45%;
+    font-family: 'Trirong', serif;
+    font-size: 40px;
+    color:#ffffff;
+}
+.clients-main{
+    width: 70vw;
+    height: 130px;
+    margin-left: 15%;
+    vertical-align: middle;
+}
+.clients-main-client{
+    margin-right: 3%;
+
+}
